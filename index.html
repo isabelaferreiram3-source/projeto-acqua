@@ -1,16 +1,70 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Acompanhe o andamento das suas obras. Aqui, você acompanha etapas, prazos e informações de forma simples e eficiente sobre o Projeto Acqua.">
-    <meta name="keywords" content="Gestão de obras, acompanhamento de obras, projeto acqua, construção civil.">
-    <meta name="author" content="Isabela nascimento">
-    <title>Projeto Acqua</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Acompanhe o andamento das suas obras. Aqui, você acompanha etapas, prazos e informações de forma simples e eficiente sobre o Projeto Acqua">
+  <meta name="keywords" content="acqua, projeto acqua, acompanhamento de obras, obras, construção, construção civil, engenharia civil, gestão de obras.">
+  <meta name="author" content="Isabela Santos">
+  <title>Project Acqua</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css">
 </head>
-
 <body>
-</body>
+  <main>
+    <div class="container">
+      <section class="section-timer">
+        <div class="timer">
+          <div>
+            <p>45</p>
+            <p>dias</p>
+          </div>
+          <div>
+            <p>10</p>
+            <p>horas</p>
+          </div>
+          <div>
+            <p>24</p>
+            <p>minutos</p>
+          </div>
+          <div>
+            <p>50</p>
+            <p>segundos</p>
+          </div>
+        </div>
+      </section>
+      <section class="novidades">
+        <h2>Prédio Acqua</h2>
+        <p>Receba novidades sobre nosso lançamento.</p>
+        <p>Morar contemporâneo para pessoas com estilo de vida dinâmico e que buscam praticidade no seu dia a dia. Lazer, esporte,
+        trabalho e contato com a natureza em um só lugar.</p>
+        <form>
+          <label for="email" class="visuallyhidden"> Email </label>
+          <input type="email" name="email" id="email" placeholder="Digite seu email..." autocomplete="email">
+          <button type="submit">Quero saber mais</button>
+        </form>
+      </section>
+    </div>
 
+    <section class="andamento">
+      <h2> Andamento do projeto</h2>
+      <p>Veja como está o andamento da construção.</p>
+
+      <ul>
+        <li><img src="./images/foto-cima.png" alt="Foto de cima do prédio em construção"></li>
+        <li><img src="./images/foto-etapa_final.png" alt="Foto da etapa final do prédio"></li>
+        <li><img src="./images/foto-fora.png" alt="Foto de fora do prédio"></li>
+        <li><img src="./images/foto-metade.png" alt="Foto do prédio em construção pela metade"></li>
+        <li><img src="./images/foto-predio_finalizado.png" alt="Foto do prédio finalizado"></li>
+        <li><img src="./images/imagem-elevador.png" alt="Foto do elevador"></li>
+      </ul>
+    </section>
+  </main>
+</body>
 </html>
